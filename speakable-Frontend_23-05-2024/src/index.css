@@ -1,0 +1,1708 @@
+@import url("https://cdn.syncfusion.com/ej2/material.css");
+/* ---------------Admin Dashboard main div-------------------------------------------------------------------------- */
+.boarderinput {
+  border: 1px solid green;
+}
+.Admin-Dashboard_main_div {
+  width: 100%;
+  height: 100vh;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Admin-Dashboard_main_left_div {
+  width: 16%;
+  min-height: 100%;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.pTag {
+    text-wrap: nowrap;
+}
+
+.Admin-Dashboard_main_left_div > NavLink {
+  width: 100%;
+}
+
+.Admin-Dashboard_main_left_header_div {
+  width: 100%;
+  /* background-color: #9491917b; */
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  line-height: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.Admin-Dashboard_main_left_header_div > span {
+  font-size: 11px;
+}
+.Admin-Dashboard_router_col_ > span:nth-child(1) {
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 20px;
+}
+
+.Admin-Dashboard_router_col_ > span:nth-child(2) {
+  font-size: 12px;
+  font-weight: 600;
+  margin-left: 20px;
+}
+
+.Admin-Dashboard_main_left_router_div {
+  width: 100%;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: white;
+  margin-top: 2px;
+  align-items: center;
+}
+
+.Admin-Dashboard_router_col_ {
+  width: 100%;
+  border-radius: 5px;
+  padding: 5px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  background-color: #0d8abcd8;
+  margin-top: 4px;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.4); */
+  /* box-shadow:  0px 1px 0 rgba(0, 0, 0, 0.2), 0 0px 4px 0 rgba(0, 0, 0, 0.4); */
+}
+
+.Admin-Dashboard_router_col_2 {
+  display: none;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #33906c;
+}
+.Admin-Dashboard_router_col_2 > span:nth-child(1) {
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 20px;
+}
+
+.Admin-Dashboard_router_col_2 > span:nth-child(2) {
+  font-size: 12px;
+  font-weight: 600;
+  margin-left: 20px;
+}
+
+.Admin-Dashboard_main_left_router_div_2 {
+  width: 100%;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: white;
+  margin-top: 2px;
+  align-items: center;
+}
+
+.Admin-Dashboard_router_col_3 {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #33906c;
+}
+.Admin-Dashboard_router_col_3 > span:nth-child(1) {
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 20px;
+}
+
+.Admin-Dashboard_router_col_3 > span:nth-child(2) {
+  font-size: 12px;
+  font-weight: 600;
+  margin-left: 20px;
+}
+
+.Admin-Dashboard_main_right_div {
+  width: 83%;
+  height: 100%;
+  padding: 5px;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  /* flex-wrap: wrap; */
+  align-items: center;
+  border-radius: 5px;
+}
+
+.Admin-Dashboard_main_right_nav_div {
+  width: 100%;
+
+  padding: 5px;
+  border-radius: 5px;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0px 1px 0 rgba(0, 0, 0, 0.2), 0 0px 4px 0 rgba(0, 0, 0, 0.4);
+}
+
+.Admin-Dashboard_nav_left_div > i {
+  margin-left: 8px;
+  font-weight: 900;
+  font-size: 14px;
+}
+
+.Admin-Dashboard_nav_right_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Admin-Dashboard_nav_right_Name_div {
+  display: flex;
+  flex-direction: column;
+}
+
+.Admin-Dashboard_nav_right_Name_div > span:nth-child(1) {
+  font-size: 14px;
+  margin-right: 15px;
+}
+
+.Admin-Dashboard_nav_right_Name_status_div {
+  width: 35%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Admin-Dashboard_nav_right_Name_status_div > div:nth-child(1) {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: #33906c;
+}
+
+.Admin-Dashboard_nav_right_Name_status_div > span {
+  font-size: 10px;
+  /* margin-left: 15px; */
+}
+
+.Admin-Dashboard_nav_right_img_div {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid white;
+}
+
+.Admin-Dashboard_nav_right_img_div > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.Admin-Dashboard_nav_search_div {
+  /* background-color: red; */
+  padding: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+}
+
+.Admin-Dashboard_nav_search_div > i {
+  margin-right: 10px;
+}
+
+.Admin-Dashboard_nav_search_div > input {
+  border: none;
+  outline: none;
+  width: 60%;
+  border-bottom: 2px solid rgba(128, 128, 128, 0.441);
+  font-size: 12px;
+}
+
+.Admin-Dashboard_main_right_outlet_div {
+  width: 100%;
+  min-height: 87vh;
+  border-radius: 4px;
+  background-color: white;
+  padding: 10px 21px;
+  box-shadow: 0px 1px 0 rgba(0, 0, 0, 0.2), 0 0px 4px 0 rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: nowrap; */
+}
+
+.Admin-Dashboard_router_col_.active {
+  color: white;
+  background-color: #33906c;
+}
+
+.Admin-Dashboard_router_col_.inactive {
+  color: black;
+  background-color: white;
+}
+.Admin-Dashboard_router_col_.inactive:hover {
+  color: white;
+  background-color: #33906c;
+}
+
+.Admin-Dashboard_router_col_3.active {
+  color: white;
+  background-color: #33906c;
+}
+
+.Admin-Dashboard_router_col_3.inactive {
+  color: black;
+  background-color: white;
+}
+.assigntedCourseTeacher {
+  background-color: #33906c;
+  border-radius: 5px;
+  /* margin-left: 3px; */
+  padding: 10px;
+  font-size: 14px;
+  color: white;
+  /* width: 80%; */
+  margin: 0.5rem;
+  text-wrap: nowrap;
+}
+
+/* -----------------------------------------------------------------------------------------Admin-Dash */
+
+.td_no_img {
+  display: inline-block;
+  width: 30px;
+  padding-top: 1.8%;
+  height: 30px;
+  border-radius: 50%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #33906c;
+  color: white;
+  font-weight: 699;
+  margin-right: 15px;
+  border: 1px solid white;
+}
+
+.Admin-Dash_main_div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  align-items: flex-start;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+  padding: 15px 20px;
+  border-radius: 10px;
+  overflow: auto;
+}
+
+.Admin-Dash_main_div > h6 {
+  font-weight: 600;
+}
+
+.Admin-Dash_contnet_box {
+  width: 100%;
+  /* height: 20vh; */
+  /* background-color: #0d8abcd8; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Admin-Dash_contnet_div {
+  width: 25%;
+  min-height: inherit;
+  background-color: white;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 7px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+  padding: 8px;
+  /* background-size: cover;
+  background-position: center;
+  background-image: url('https://i.pinimg.com/564x/30/23/95/3023955a6f41723e35d1e359e2ed28d5.jpg'); */
+  /* background-image: url('https://i.pinimg.com/564x/37/15/25/371525583b091156be6c975d86d42066.jpg'); */
+}
+
+.Admin-Dash_contnet_div_span1 {
+  font-size: 14px;
+  font-weight: 799;
+  color: #33906c;
+}
+
+.Admin-Dash_contnet_div_img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 10px;
+}
+
+.Admin-Dash_contnet_div_span2 {
+  font-size: 13px;
+  margin-top: 10px;
+  font-weight: 799;
+  color: rgba(128, 128, 128, 0.746);
+}
+
+.Admin-Dash_contnet_section_div {
+  width: 20%;
+  height: 100%;
+  background-color: white;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 7px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+  /* background-image: url('https://i.pinimg.com/564x/d2/34/7e/d2347e696f42c50345c2028870b613ac.jpg'); */
+  /* background-image: url('https://i.pinimg.com/236x/fd/e5/63/fde563840dc75a12daa6b70000a6f052.jpg'); */
+  /* background-image: url('https://i.pinimg.com/236x/c2/e2/71/c2e271e7c2c54ae4157c092f89185114.jpg');
+  background-size: cover;
+  background-position: center;
+  /* background-image: url('https://i.pinimg.com/564x/37/15/25/371525583b091156be6c975d86d42066.jpg'); */
+  /* padding: 10px 20px; */
+}
+
+.Admin-Dash_contnet_head_div_img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.Admin-Dash_contnet_head_div_span {
+  font-size: 14px;
+  /* font-weight: 700; */
+  text-align: end;
+  font-weight: 799;
+  color: #33906c;
+}
+
+.Admin-Dash_list_box {
+  width: 100%;
+  /* height: 57vh; */
+  /* background-color: red; */
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+
+.Admin-Dash_student_list_box {
+  width: 100%;
+  border-radius: 5px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  /* background-color: #33906C; */
+}
+
+.Admin-Dash_student_calender_box {
+  width: 32%;
+  padding: 5px;
+  min-height: inherit;
+  border-radius: 5px;
+}
+
+.td_img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 15px;
+  object-fit: cover;
+  border: 1px solid white;
+}
+
+.Admin-Dash_student_list_div {
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+.Admin-Dash_student_list_div::-webkit-scrollbar {
+  display: none;
+}
+
+.th {
+  color: rgb(203, 202, 202) !important;
+  font-size: 12px;
+}
+
+.td {
+  font-size: 12px !important;
+  /* display: flex; */
+  /* flex-direction: column; */
+}
+
+.tdexternal {
+  font-size: 12px !important;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ------------------------------------------------------------------------------------------AdminTeachers */
+
+.Teacher_mainPage_style {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  /* background-color: #33906C; */
+  border-radius: 10px;
+  padding: 15px 20px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+.Teacher_header_style {
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Teacher_list_style {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  overflow-y: scroll;
+}
+.Teacher_list_style::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.Teacher_list_style {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.teacher_card {
+  width: 250px;
+  /* padding: 10px 60px; */
+  /* min-width: 200px; */
+  /* height: 250px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: flex-start; */
+  /* margin-right: 12px; */
+  /* margin-left: 45px; */
+  /* margin-bottom: 10px; */
+  padding: 10px;
+  /* position: relative; */
+  /* -webkit-box-shadow: 0 2px 30px rgba(44,60,74,.08); */
+  box-shadow: 0 2px 30px rgb(37 84 125 / 31%);
+  border-radius: 8px;
+}
+
+.teacher_card_img_div {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #33906c;
+  color: white;
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.teacher_card_img_div > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.teacher_card > p {
+  font-size: 16px;
+  margin-top: 12px;
+  margin-bottom: -3px;
+  text-align: center;
+}
+
+.teacher_card > h6 {
+  font-size: 12px;
+  color: #abadaf;
+}
+
+.teacher_card_course_span {
+  background-color: #33906c;
+  border-radius: 5px;
+  margin-left: 3px;
+  padding: 4px;
+  font-size: 8px;
+  color: white;
+  width: 80%;
+}
+
+.teacher_card > button {
+  margin-top: 12px;
+  font-size: 12px;
+  width: 40%;
+  padding: 4px;
+  /* position: absolute;
+  bottom: 5%; */
+}
+
+/* .Teacher_list_style::-webkit-scrollbar{
+display: none;
+} */
+
+/* --------------------------------------------------------------------------------------------------------------Add teachers */
+
+.Addteacherimage_box {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  /* min-height: auto; */
+}
+
+.form_group_div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: red; */
+}
+
+.form-control {
+  font-size: 12px !important;
+  padding: 4px 8px !important;
+  /* background-color: #EAF4F1 !important; */
+  border-radius: 4px !important;
+  color: #636464 !important;
+  border: 1px solid rgb(90 209 90) !important;
+}
+
+.form-group > input::placeholder {
+  color: #abadaf !important;
+  opacity: 1; /* Firefox */
+}
+
+label {
+  font-size: 12px;
+  color: #abadaf;
+}
+
+.form-group > label {
+  font-size: 12px;
+  color: #abadaf !important;
+}
+
+.availability-item {
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.react-time-picker__wrapper {
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.Add_Teachers_main_div {
+  width: 100%;
+  padding: 20px 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap; /* background-color: #33906C; */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+.Add_Teachers_main_div > form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.Add_Teachers_main_div > form::-webkit-scrollbar {
+  display: none;
+}
+
+.btn-add-teacher {
+  font-size: 12px !important;
+}
+
+.btn-delete-teacher {
+  font-size: 12px !important;
+}
+.TimeItemBox {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 1rem;
+}
+.react-time-picker {
+  font-size: 12px;
+  color: #636464;
+}
+
+.react-time-picker__wrapper {
+  border: 1px solid #dee2e6;
+}
+.react-time-picker__button {
+  color: #dee2e6;
+}
+.react-time-picker__button svg > line {
+  color: #dee2e6;
+}
+
+/* -----------------------------------------------------------------------------------------------Student list */
+
+.Student_mainPage_style {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+  padding: 15px 20px;
+  border-radius: 10px;
+  overflow: auto;
+}
+
+.Student_header_style {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Student_list_style {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  overflow-y: auto;
+  overflow-x: auto;
+  /* background-color: black; */
+}
+
+.Student_card {
+  width: 20%;
+  /* padding: 10px 60px; */
+  /* min-width: 200px; */
+  /* height: 250px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: flex-start; */
+  /* margin-right: 12px; */
+  /* margin-left: 45px; */
+  /* margin-bottom: 10px; */
+  padding: 10px;
+  /* position: relative; */
+  /* -webkit-box-shadow: 0 2px 30px rgba(44,60,74,.08); */
+  box-shadow: 0 2px 30px rgb(37 84 125 / 31%);
+  border-radius: 8px;
+}
+
+.Student_card_img_div {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  /* border: 1px solid black; */
+  margin-top: 20px;
+}
+
+.Student_card_no_img {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 50%;
+  background-color: #33906c;
+  font-size: 30px;
+  color: white;
+  font-weight: 650;
+}
+
+.Student_card_img_div > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.Student_card > h5 {
+  font-size: 16px;
+  margin-top: 12px;
+  margin-bottom: -3px;
+}
+
+.Student_card > h6 {
+  font-size: 12px;
+  color: #abadaf;
+}
+
+.Student_card_course_span {
+  background-color: #33906c;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 5px;
+  font-size: 10px;
+  color: white;
+}
+
+.Student_card > button {
+  margin-top: 12px;
+  font-size: 12px;
+  width: 40%;
+  padding: 4px;
+  /* position: absolute;
+bottom: 5%; */
+}
+
+/* ----------------------------------------------------------------------------------------------- AddStudentstyle */
+
+.AddStudentstyle {
+  width: 100%;
+  height: 89%;
+  padding: 20px 30px;
+  overflow-y: auto;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+.AddStudentstyle::-webkit-scrollbar {
+  display: none;
+}
+/* -----------------------------------------------------------------------------------------------Courses list */
+
+.Course_mainPage_style {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+  padding: 15px 20px;
+  border-radius: 10px;
+  /* background-color: red; */
+}
+
+.Course_header_style {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-course {
+  font-size: 12px !important;
+}
+
+/* ----------------------------------------------------------------------------------------------- AddCoursestyle */
+
+.AddCoursestyle {
+  width: 100%;
+  height: 89%;
+  padding: 20px 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+}
+
+.AddCoursestyle::-webkit-scrollbar {
+  display: none;
+}
+select {
+  border: 1px solid #abadaf;
+  font-size: 12px !important;
+  border-radius: 3px;
+  color: #636464;
+}
+
+/* ----------------------------------------------------------------------------------------------- EditCoursestyle */
+
+.EditCoursestyle {
+  width: 100%;
+  height: 89%;
+  overflow-y: auto;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+.EditCoursestyle::-webkit-scrollbar {
+  display: none;
+}
+
+/* ----------------------------------------------------------------------------------------------- Admin_teachers_detail_main_page ------------------------ */
+
+.Admin_teachers_detail_main_page {
+  width: 100%;
+}
+
+.Admin_teachers_detail_section {
+  width: 100%;
+  /* height: 89%; */
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+.Admin_teachers_detail_section_img_div {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+  /* margin-top: 20px; */
+  box-shadow: 0 2px 30px rgba(44, 60, 74, 0.08);
+}
+
+.Admin_teachers_detail_section_img_div > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.Admin_teachers_detail_section_no_img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #33906c;
+  font-size: 40px;
+  color: white;
+  font-weight: 650;
+  box-shadow: 0 2px 30px rgba(44, 60, 74, 0.08);
+}
+
+.Admin_teachers_detail_section_header_div {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  /* background-color: red; */
+  padding: 11px 19px;
+  gap: 3%;
+}
+
+.Admin_teachers_detail_section_header {
+  width: 19%;
+  text-align: end;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  /* background-color: red   ; */
+}
+
+.Admin_teachers_detail_section_header_name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 2px;
+  width: 100%;
+  gap: 8px;
+}
+
+/* .Admin_teachers_detail_section_header_name > p:nth-child(1) {
+  font-size: 20px;
+} */
+
+.Admin_teachers_detail_section_header_name > p:nth-child(2) {
+  /* margin-top: 30px; */
+  font-size: 10px;
+}
+
+.Admin_teachers_detail_section_header_name > p:nth-child(3) {
+  /* margin-top: 30px; */
+  font-size: 10px;
+}
+
+.sociallink_div {
+  /* width: 100%; */
+  /* background-color: #33906C; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8%;
+  font-size: 18px;
+}
+
+.Admin_teachers_detail_section_about_div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  /* background-color: red; */
+  padding: 0px 30px;
+}
+
+.Admin_teachers_detail_section_col {
+  width: 60%;
+  height: 100%;
+  /* background-color: #0d8abcd8; */
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  border-radius: 10px;
+  box-shadow: 0 2px 30px rgba(44, 60, 74, 0.08);
+}
+
+.Admin_teachers_detail_section_col_text > h6 {
+  font-size: 13px;
+}
+
+.Admin_teachers_detail_section_col_text > span {
+  font-size: 12px;
+}
+
+.teacher_card_course_span_details {
+  background-color: #33906c;
+  border-radius: 5px;
+  margin-top: 8px;
+  padding: 16px 8px;
+  font-size: 14px;
+  color: white;
+}
+
+/* -------------------------------------------------------------------------------------------- Edit Teachers Page style ----- */
+
+.table tr {
+  text-align: center;
+}
+
+.Edit_Teachers_main_div {
+  width: 100%;
+  height: 100%;
+  padding: 20px 30px;
+  border-radius: 10px;
+  overflow: auto;
+  /* background-color: #33906C; */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+.Edit_Teachers_main_div::-webkit-scrollbar{
+  display: none;
+}
+.Edit_Teachers_main_div > form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.Edit_Teachers_main_div > form::-webkit-scrollbar {
+  display: none;
+}
+/* ---------------------------------------------------------------------------------------------Edit_Package_main_div ------------------- */
+
+.Edit_Package_main_div {
+  width: 100%;
+  /* height: 90%; */
+  padding: 20px 30px;
+  border-radius: 10px;
+  /* background-color: #33906C; */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+.Edit_Package_main_div > form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.Edit_Package_main_div > form::-webkit-scrollbar {
+  display: none;
+}
+
+/* ------------------------------------------------------------------------------------------------------ */
+
+.Course_list_style {
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  /* background-color: black; */
+}
+
+.Course_list_style::-webkit-scrollbar {
+  display: none;
+}
+.Courses_card {
+  /* padding: 10px 60px; */
+  /* width: 200px; */
+  /* height: 250px; */
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  /* margin-right: 12px;*/
+  margin-left: 55px;
+  margin-bottom: 10px;
+  position: relative;
+  box-shadow: 0 2px 30px rgba(44, 60, 74, 0.08);
+  border-radius: 8px;
+}
+
+.Courses_card_img_div {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  /* border: 1px solid black; */
+  margin-top: 20px;
+}
+
+.Courses_card_img_div > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.Courses_card > h5 {
+  font-size: 16px;
+  margin-top: 12px;
+  margin-bottom: -3px;
+}
+
+.Courses_card > p {
+  font-size: 12px;
+  color: #abadaf;
+  text-align: center;
+  padding: 10px;
+}
+
+.Courses_card > h6 {
+  font-size: 12px;
+  color: #abadaf;
+  text-align: center;
+  /* padding: 10px; */
+}
+
+.Courses_card > span {
+  font-size: 12px;
+  color: #33906c;
+  font-weight: 999;
+  text-align: center;
+  margin-top: -20px;
+  margin-bottom: 15px;
+}
+
+.Courses_card_teacher_span {
+  background-color: #33906c;
+  border-radius: 5px;
+  /* margin-top: 10px; */
+  padding: 5px;
+  font-size: 10px;
+  color: white;
+}
+
+.admincoursetbn_div > button {
+  margin-top: 12px;
+  font-size: 12px;
+  width: 25%;
+  padding: 4px;
+  /* position: absolute;
+bottom: 5%; */
+}
+
+/* ----------------------------------------------------------------------------------------------------------Meeting_mainPage_style */
+
+.Meeting_mainPage_style {
+  width: 100%;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+.Meeting_header_style {
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* ----------------------------------------------------------------------------------------------------- Feedback_mainPage_style */
+
+.Feedback_mainPage_style {
+  width: 100%;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+.Feedback_header_style {
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* ----------------------------------------------------------------------------------------------------- Booking_mainPage_style */
+
+.Booking_mainPage_style {
+  width: 100%;
+  height: 90%;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 10px 20px;
+
+  flex-wrap: wrap;
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+.Booking_header_style {
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Booking_mainPage_style::-webkit-scrollbar {
+  display: none;
+}
+/* 
+.Booking_list_style {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  overflow-x: hidden;
+  overflow-y: auto;
+} */
+
+/* ---------------------------------------------------------------------------------------------------- EnquiryStudent_mainPage_style------ */
+
+.EnquiryStudent_mainPage_style {
+  width: 100%;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 10px 20px;
+      overflow-x: auto;
+    overflow-y: auto;
+}
+
+.EnquiryStudent_header_style {
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* ---------------------------------------------------------------------------------------------------  Payments_mainPage_style-------------- */
+
+.Payments_mainPage_style {
+  width: 100%;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 10px 20px;
+   overflow-x: auto;
+    overflow-y: auto;
+}
+
+.Payments_header_style {
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+     
+}
+
+/* *-------------------------------------------------------------------------------------------------Packages_mainPage_style----------------- */
+
+.Packages_mainPage_style {
+  width: 100%;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 10px 20px;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+.Packages_header_style {
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* -------------------------------------------------------------------------------------------------  */
+
+.Dash_mainPage_style {
+  width: 100%;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+/* -----------------------------------------------------------------------------------------------Teacher Dashboard Dash page style */
+
+.Teacher-Dash_contnet_section_div {
+  width: 15%;
+  height: 100%;
+  background-color: white;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 7px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+  /* background-image: url('https://i.pinimg.com/564x/d2/34/7e/d2347e696f42c50345c2028870b613ac.jpg'); */
+  /* background-image: url('https://i.pinimg.com/236x/fd/e5/63/fde563840dc75a12daa6b70000a6f052.jpg'); */
+  /* background-image: url('https://i.pinimg.com/236x/c2/e2/71/c2e271e7c2c54ae4157c092f89185114.jpg');
+  background-size: cover;
+  background-position: center;
+  /* background-image: url('https://i.pinimg.com/564x/37/15/25/371525583b091156be6c975d86d42066.jpg'); */
+  /* padding: 10px 20px; */
+}
+
+/* -----------------------------------------------------------------------------------------------Student list */
+
+.Package_mainPage_style {
+  width: 100%;
+  /* height: 90%; */
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+  padding: 15px 20px;
+  border-radius: 10px;
+}
+
+.Package_header_style {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Package_list_style {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  overflow-y: auto;
+  overflow-x: hidden;
+  gap: 24px;
+  /* background-color: black; */
+}
+
+.Package_card {
+padding: 10px 10px;
+    /* min-width: 350px; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* margin-left: 45px; */
+    /* margin-bottom: 10px; */
+    position: relative;
+    box-shadow: 0 2px 30px rgba(44, 60, 74, 0.08);
+    border-radius: 8px;
+}
+.packagegimg {
+  width: 20%;
+}
+
+.Package_card > p {
+  font-size: 12px;
+  color: #abadaf;
+  text-align: center;
+}
+
+.Package_card > h5 {
+  font-size: 16px;
+}
+
+.Package_card > h6 {
+  font-size: 12px;
+  color: #abadaf;
+}
+
+.Package_card_course_span {
+  background-color: #33906c;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 5px;
+  font-size: 10px;
+  color: white;
+}
+
+.Package_card > button {
+  margin-top: 12px;
+  font-size: 12px;
+  width: 40%;
+  padding: 4px;
+  /* position: absolute;
+bottom: 5%; */
+}
+.EditPackage_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.EditPackage_image_div {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.EditPackage_image_div > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.EditPackage_card {
+  padding: 10px 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  /* margin-left: 45px; */
+  margin-bottom: 10px;
+  position: relative;
+  box-shadow: 0 2px 30px rgba(44, 60, 74, 0.08);
+  border-radius: 8px;
+}
+.packagegimg {
+  width: 20%;
+}
+
+.EditPackage_card > p {
+  font-size: 12px;
+  color: #abadaf;
+  text-align: center;
+}
+
+.EditPackage_card > h5 {
+  font-size: 16px;
+}
+
+.EditPackage_card > h6 {
+  font-size: 12px;
+  color: #abadaf;
+}
+
+.EditPackage_card_course_span {
+  background-color: #33906c;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 5px;
+  font-size: 10px;
+  color: white;
+}
+
+.EditPackage_card > button {
+  margin-top: 12px;
+  font-size: 12px;
+  width: 40%;
+  padding: 4px;
+  /* position: absolute;
+bottom: 5%; */
+}
+/* ---------------------------------------------package teacher card */
+.teacherCardOfPack {
+    display: flex;
+  gap: 17px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+button.BtnSelctTchr {
+    border: none;
+    background: none;
+    width: 33%;
+}
+.Teacher_Package_card {
+  padding: 10px 10px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  /* margin-right: 12px;*/
+  margin-left: 45px;
+  margin-bottom: 10px;
+  position: relative;
+  box-shadow: 0 2px 30px rgba(44, 60, 74, 0.08);
+  border-radius: 8px;
+}
+.packagegimg {
+  width: 20%;
+}
+
+.Teacher_Package_card > p {
+  font-size: 12px;
+  color: #abadaf;
+  text-align: center;
+}
+
+.Teacher_Package_card > h5 {
+  font-size: 16px;
+}
+
+.Teacher_Package_card > h6 {
+  font-size: 12px;
+  color: #abadaf;
+}
+
+.Teacher_Package_card_course_span {
+  background-color: #33906c;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 5px;
+  font-size: 10px;
+  color: white;
+}
+.flexGAp{
+  gap: 10px;
+}
+.Teacher_Package_card > button {
+  margin-top: 12px;
+  font-size: 12px;
+  width: 40%;
+  padding: 4px;
+  /* position: absolute;
+  bottom: 5%; */
+}
+
+/* --------------------------------------------------------- */
+
+.meetingbtn {
+  font-size: 11px !important;
+  padding: 2px !important;
+}
+
+.paddingphone {
+  padding: 0px 10px;
+}
+
+.date-picker-style {
+  border: none;
+  border-radius: 6px;
+  font-size: 12px;
+  padding: 5px;
+  border: 1px solid #33906c;
+  outline: none;
+}
+
+.timeslot_div {
+  width: 96%;
+  height: 50vh;
+  background-color: white;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  border-radius: 10px;
+  border: 1px solid #258754;
+}
+.timeslot_div > button {
+  width: 200px;
+  height: 50px;
+  background-color: white;
+  border: 1px solid #28a745;
+}
+
+.widthFormField {
+  width: 25%;
+}
+
+@media only screen and (max-width: 1024px) {
+  .widthFormField {
+    width: 100%;
+  }
+  /* -----------------------------------------------------------------------------admin panel */
+  .Admin-Dashboard_main_div {
+    height: initial;
+    padding: 10px;
+    flex-direction: column;
+  }
+  .Admin-Dashboard_main_left_div {
+    width: 100%;
+  }
+  .Admin-Dashboard_main_right_div {
+    width: 100%;
+  }
+  .Admin-Dash_main_div {
+    width: 100%;
+    height: 100%;
+  }
+  .Admin-Dash_contnet_box {
+    height: initial;
+    flex-direction: column;
+  }
+  .Admin-Dash_contnet_div {
+    width: 100%;
+  }
+  .Admin-Dash_contnet_section_div {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .Admin-Dash_list_box {
+    flex-direction: column;
+    height: initial;
+  }
+ 
+  .Admin-Dash_student_calender_box {
+    width: 100%;
+  }
+  .Courses_card {
+    margin-left: 0px;
+  }
+
+  /* ---------------------------------------------------------------------------------- Teacher panel */
+
+  .Teacher-Dash_contnet_section_div {
+    width: 100%;
+  }
+  .StudentName_style {
+    padding: 33px !important;
+  }
+
+  /* *-------------------------------------------------------------------------------   .Admin-Dashboard */
+
+  .Admin-Dashboard_main_left_router_div {
+    flex-direction: row;
+  }
+  .Admin-Dashboard_router_col_.inactive {
+    display: none;
+  }
+  .Admin-Dashboard_router_col_.active {
+    display: none;
+  }
+
+  .Admin-Dashboard_router_col_2 {
+    display: flex;
+  }
+  /* .Admin-Dashboard_router_col_.inactive > span:nth-child(1) {
+    display: none;
+  }
+  .Admin-Dashboard_router_col_.inactive > span:nth-child(2) {
+    display: none;
+  } */
+
+  .Admin_teachers_detail_section_header_div {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .Admin_teachers_detail_section_img_div {
+    width: 50%;
+    border-radius: 0%;
+  }
+  .Admin_teachers_detail_section_header_name {
+    gap: 5px;
+  }
+
+  .Admin_teachers_detail_section_header {
+    width: 80%;
+  }
+  .Admin_teachers_detail_section_col {
+    width: 80%;
+  }
+  .Teacher_list_style {
+    justify-content: center;
+
+    gap: 17px;
+    flex-wrap: wrap;
+  }
+  .form_group_div {
+flex-direction: column;
+gap: 10px;
+}
+}
+
+@media only screen and (max-width: 1024px) {
+  .Admin_teachers_detail_section_col {
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 28px;
+  }
+
+}
+
+@media only screen and (max-width: 800px) {
+ 
+  .Booking_list_style{
+    width: 700px;
+  }
+  button.BtnSelctTchr {
+    width: 70%;
+    justify-content: center;
+  }
+  .teacherCardOfPack{
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 692px) {
+    button.BtnSelctTchr {
+        width: 100%;
+        justify-content: center;
+    }
+}

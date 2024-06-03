@@ -1,0 +1,50 @@
+{
+  "header": {
+    "Home": "Home",
+    "Courses": "Courses",
+    "Teacher": "Teacher",
+    "About": "About",
+    "OurTeachers": "Our Teachers",
+    "Reviews": "Reviews",
+    "Contact": "Contact",
+    "Signup": "Signup",
+    "Signin": "Signin",
+    "Meetourteam": "Meet Our Team"
+  },
+  "About": {
+    "Signuptoday": "Register today!",
+    "Fullname": "Fullname",
+    "FirstName": "First Name",
+    "lastName": "Last Name",
+    "NickName": "Nick Name",
+    "YourEmailaddress": "Your Email address",
+    "YourPassowrd": "Your Passowrd",
+    "GetStarted": "Get Started",
+    "leftheading": "Start your path to a better life",
+    "leftSub1": "Free Lesson",
+    "leftSubpara1": "Upon registration, we offer access to one lesson from the selected course completely free of charge. This is an excellent opportunity to see how our practical training can contribute to your development without any financial obligations.",
+    "leftSub2": "Professional Teachers",
+    "leftSubpara2": "Professional Teachers Our experienced teachers will guide you through every stage of learning, providing the knowledge and skills necessary to achieve success in your industry. We offer lessons at any language level, allowing for personal and professional development.",
+    "leftSub3": "Free Disk Space",
+    "leftSubpara3": "We provide each participant of our courses with free disk space. This is an excellent solution for storing educational materials, homework, and projects. As a result, you have the convenience of accessing your resources at any place and time, which supports effective learning and better organization of materials"
+  },
+  "Reviews": {
+    "heading": "Reviews From Our Students",
+    "subheading": "from all over the world"
+  },
+  "Contact": {
+    "heading": "Contact Us",
+    "subheading": "We love conversations. Let us talk!",
+    "EnterFullName": "Enter Full Name",
+    "EnterEmail": "Enter Email Address",
+    "message": "Write Your Message",
+    "SendMessage": "Send Message"
+  },
+  "Foot": {
+    "Contactinfo": "Contact Info",
+    "Receivenews!": "Receive news !",
+    "Enteryouremail": "Enter your email",
+    "Sendme": "Send me",
+    "footerspam": "* Please note - we do not spam your email"
+  }
+}

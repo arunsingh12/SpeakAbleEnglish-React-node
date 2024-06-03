@@ -1,0 +1,50 @@
+{
+  "header": {
+    "Home": "Dom",
+    "Courses": "Kursy",
+    "Teacher": "Nauczyciel",
+    "About": "O",
+    "OurTeachers": "Nasi Nauczyciele",
+    "Reviews": "Opinie",
+    "Contact": "Kontakt",
+    "Signup": "Zapisać się",
+    "Signin": "Zalogować się",
+    "Meetourteam": "Poznaj naszych zespół"
+  },
+  "About": {
+    "Signuptoday": "Zarejestruj się już dzisiaj!",
+    "Fullname": "imię i nazwisko",
+    "FirstName": "Imię",
+    "lastName": "Nazwisko",
+    "NickName": "Przezwisko",
+    "YourEmailaddress": "Twój adres email",
+    "YourPassowrd": "Twoje hasło",
+    "GetStarted": "Zaczynaj",
+    "leftheading": "Rozpocznij swoją drogę do lepszego życia",
+    "leftSub1": "Darmowa lekcja",
+    "leftSubpara1": "Przy rejestracji oferujemy dostęp do jednej lekcji z wybranego kursu całkowicie za darmo. To doskonała okazja, aby przekonać się, jak nasze praktyczne szkolenia mogą przyczynić się do Twojego rozwoju, bez żadnych zobowiązań finansowych.",
+    "leftSub2": "Profesjonalni Nauczyciele",
+    "leftSubpara2": "Nasi doświadczeni nauczyciele poprowadzą Cię przez każdy etap nauki, zapewniając wiedzę i umiejętności niezbędne do osiągnięcia sukcesu w Twojej branży. Oferujemy lekcje na dowolnym poziomie języka, pozwalające na rozwój osobisty i zawodowy.",
+    "leftSub3": "Bezpłatna Przestrzeń Dyskowa",
+    "leftSubpara3": "Zapewniamy każdemu uczestnikowi naszych kursów bezpłatną przestrzeń dyskową. Jest to doskonałe rozwiązanie do przechowywania materiałów edukacyjnych, prac domowych oraz projektów. Dzięki temu, masz możliwość wygodnego dostępu do swoich zasobów w dowolnym miejscu i czasie, co sprzyja efektywnej nauce i lepszej organizacji materiału."
+  },
+  "Reviews": {
+    "heading": "Recenzje naszych uczniów",
+    "subheading": "z całego świata"
+  },
+  "Contact": {
+    "heading": "Skontaktuj się z nami",
+    "subheading": "Kochamy rozmowy. Pozwól nam porozmawiać!",
+    "EnterFullName": "Wpisz pełne imię i nazwisko",
+    "EnterEmail": "Wprowadź adres e-mail",
+    "message": "Napisz swoją wiadomość",
+    "SendMessage": "Wyślij wiadomość"
+  },
+  "Foot": {
+    "Contactinfo": "Informacje kontaktowe",
+    "Receivenews!": "Otrzymuj nowości !",
+    "Enteryouremail": "Wprowadź swój email",
+    "Sendme": "Wyślij mi",
+    "footerspam": "* Uwaga! Nie wysyłamy spamu!"
+  }
+}

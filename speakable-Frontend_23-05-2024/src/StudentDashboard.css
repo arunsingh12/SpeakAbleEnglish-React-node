@@ -1,0 +1,101 @@
+.StudentProfile_header_style {
+  width: 100%;
+  min-height: 39%;
+  display: block;
+  background-color: #33906c;
+  position: relative;
+}
+
+.Profile_header_imgdiv {
+    width: 15%;
+    height: 84%;
+    border-radius: 56px;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left:10%;
+    transform: translate(-50%,-50%);
+    border-radius: 50% !important;
+    overflow: hidden;
+    border: 2px solid white;
+}
+
+.Profile_header_imgdiv > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 1px solid transparent;
+   border-radius: 50% !important;
+}
+
+
+.StudentProfile_mainPage_style {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.StudentProfile_mainPage_style::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+.StudentName_style {
+  font-family: Nunito;
+  width: 100%;
+  padding: 1% 4%;
+  margin: 0 5%;
+}
+
+.studentName {
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+
+.userDetail {
+  margin: 0 5%;
+  display: flex;
+  padding: 1% 2%;
+}
+
+.userDetailIcon {
+  background-color: #33906c;
+  padding: 5px 10px;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  color: white;
+  margin: 1%;
+}
+
+.userDetailText {
+  font-family: Nunito;
+  display: block;
+  padding: 0.5% 3%;
+  line-height: 0.5;
+  align-self: center;
+}
+
+.userDetailTextTitle {
+  color: #777;
+}
+
+.userDetailTextData {
+  color: #000;
+  font-size: 1rem;
+  line-height: 20px;
+}
+
+
+@media only screen and (max-width: 692px) {
+ .studentName {
+    font-size: 21px;
+  
+}
+}
